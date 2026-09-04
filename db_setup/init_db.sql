@@ -3,6 +3,7 @@ create database grocery_sales;
 create schema if not exists sales;
 
 create table if not exists sales.grocery_sales(
+	index VARCHAR(50),
 	Store_ID VARCHAR(50),
 	Date DATE,
 	Dept CHAR(10),
